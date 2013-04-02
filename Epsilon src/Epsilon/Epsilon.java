@@ -20,12 +20,12 @@ import cpw.mods.fml.common.network.NetworkMod;
 
 @Mod(modid = "Espilon", version = "0.0.1")
 @NetworkMod(clientSideRequired = true, serverSideRequired = false)
-public class Espilon {
+public class Epsilon {
 
 
     // The instance of your mod that Forge uses.
     @Instance("Espilon")
-    public static Espilon instance;
+    public static Epsilon instance;
 
     // Says where the client and server 'proxy' code is loaded.
     @SidedProxy(clientSide = "Epsilon.client.ClientProxy", serverSide = "Epsilon.common.CommonProxy")
