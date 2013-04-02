@@ -7,11 +7,12 @@ public class biomeEpsilonPlains extends BiomeGenBase {
 
     public biomeEpsilonPlains(int par1) {
         super(par1);
-        this.topBlock = (byte)Block.mycelium.blockID;;        
+        this.topBlock = (byte)Block.grass.blockID;;        
         this.spawnableMonsterList.clear();
         this.spawnableCreatureList.clear();
         this.spawnableWaterCreatureList.clear();
-        this.fillerBlock = (byte)Block.netherBrick.blockID;
+        this.fillerBlock = (byte)Block.dirt.blockID;
+        this.color = 330066;
         
     }
 

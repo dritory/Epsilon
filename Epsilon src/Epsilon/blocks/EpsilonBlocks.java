@@ -17,11 +17,11 @@ public abstract class EpsilonBlocks extends BlockContainer {
 
 
     
-//    @Override
-//    @SideOnly(Side.CLIENT)
-//    public void registerIcons(IconRegister iconRegister) {
-//
-//        blockIcon = iconRegister.registerIcon("Epsilon" + ":" + this.getUnlocalizedName().substring(this.getUnlocalizedName().indexOf(".") + 1));
-//    }
+    @Override
+    @SideOnly(Side.CLIENT)
+    public void registerIcons(IconRegister iconRegister) {
+
+        blockIcon = iconRegister.registerIcon("Epsilon" + ":" + this.getUnlocalizedName().substring(this.getUnlocalizedName().indexOf(".") + 1));
+    }
 
 }

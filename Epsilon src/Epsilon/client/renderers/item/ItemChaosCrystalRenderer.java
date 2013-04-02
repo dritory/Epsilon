@@ -58,7 +58,7 @@ public class ItemChaosCrystalRenderer implements IItemRenderer {
     private void renderChaosCrystal(float x, float y, float z, float scale) {
 
         FMLClientHandler.instance().getClient().renderEngine
-                .bindTexture("/Epsilon/textures/blocks/ChaosCrystal.png");
+                .bindTexture("/mods/Epsilon/textures/blocks/ChaosCrystal.png");
         GL11.glPushMatrix(); // start
         GL11.glDisable(GL11.GL_LIGHTING);
         GL11.glTranslatef(x, y, z); // size

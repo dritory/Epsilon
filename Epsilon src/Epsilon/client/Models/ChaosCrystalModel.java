@@ -115,7 +115,7 @@ public class ChaosCrystalModel extends ModelBase {
         GL11.glScalef(.06f, .06f, .06f);
         // GL11.glRotatef(45F, 0F, 1F, 0F);
         GL11.glRotatef(180F, 1F, 0F, 0F);
-        FMLClientHandler.instance().getClient().renderEngine.bindTexture("/Epsilon/textures/blocks/ChaosCrystal.png");
+        FMLClientHandler.instance().getClient().renderEngine.bindTexture("/mods/Epsilon/textures/blocks/ChaosCrystal.png");
         Base_Height.render(1F);
         Shape1.render(1F);
         Shape2.render(1F);

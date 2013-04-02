@@ -38,7 +38,7 @@ public class ChunkProviderEpsilon implements IChunkProvider {
     
     
     //TODO Replace with the real block, not iron block
-    private final int GroundGenerationBlock = 42;
+    private final int GroundGenerationBlock = 1;
     
     /** RNG. */
     private Random rand;

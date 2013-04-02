@@ -18,13 +18,13 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.network.NetworkMod;
 
-@Mod(modid = "Espilon", version = "0.0.1")
+@Mod(modid = "Epsilon", version = "0.0.1")
 @NetworkMod(clientSideRequired = true, serverSideRequired = false)
 public class Epsilon {
 
 
     // The instance of your mod that Forge uses.
-    @Instance("Espilon")
+    @Instance("Epsilon")
     public static Epsilon instance;
 
     // Says where the client and server 'proxy' code is loaded.
